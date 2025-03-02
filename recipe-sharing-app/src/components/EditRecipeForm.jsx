@@ -1,22 +1,19 @@
 import { useState } from 'react';
 import useRecipeStore from '../recipeStore';
 
-const AddRecipeForm = () => {
-  const addRecipe = useRecipeStore((state) => state.addRecipe);
-  const [title, setTitle] = useState('');
-  const [description, setDescription] = useState('');
+const EditRecipeForm = ({ recipe }) => {
+  const updateRecipe = useRecipeStore((state) => state.updateRecipe);
+  const [title, setTitle] = useState(recipe.title);
+  const [description, setDescription] = useState(recipe.description);
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (!title || !description) return;
-
-    addRecipe({ id: Date.now(), title, description });
-    setTitle('');
-    setDescription('');
+    updateRecipe(recipe.id, { title, description });
+    alert('Recipe updated successfully!');
   };
 
   return (
-    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
         value={title}
@@ -30,9 +27,9 @@ const AddRecipeForm = () => {
         placeholder="Recipe Description"
         required
       />
-      <button type="submit">Add Recipe</button>
+      <button type="submit">Update Recipe</button>
     </form>
   );
 };
 
-export default AddRecipeForm;
+export default EditRecipeForm;
