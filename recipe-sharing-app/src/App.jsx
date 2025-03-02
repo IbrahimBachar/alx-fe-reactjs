@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import RecipeList from './components/RecipeList';
 import AddRecipeForm from './components/AddRecipeForm';
 import RecipeDetails from './components/RecipeDetails';
@@ -11,6 +11,7 @@ function App() {
     <div style={{ maxWidth: '600px', margin: '20px auto', textAlign: 'center' }}>
       <h1>Recipe Sharing App</h1>
       <SearchBar />
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<>
           <AddRecipeForm />
@@ -19,7 +20,9 @@ function App() {
           <RecommendationsList />
         </>} />
         <Route path="/recipe/:id" element={<RecipeDetails />} />
-      </Routes>
+       </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }
