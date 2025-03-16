@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Home from "./components/Home";
 import About from "./components/About";
 import Profile from "./components/Profile";
-import Post from "./components/Post";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Login from "./pages/Login";
+import BlogPost from "./components/BlogPost";
 
 function App() {
   return (
@@ -15,13 +15,13 @@ function App() {
         <Route path="/login" element={<Login />} />
       
         <Route element={<ProtectedRoute />}>
-          <Route path="/profile" element={<Profile />}>
-          </Route>
+          <Route path="/profile" element={<Profile />} />
         </Route>
 
-        <Route path="/post/:id" element={<Post />} />
+        <Route path="/blog/:id" element={<BlogPost />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      
     </Router>
   )
 }
