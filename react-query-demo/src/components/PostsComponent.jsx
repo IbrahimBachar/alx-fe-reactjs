@@ -1,5 +1,5 @@
-import { useQuery } from 'react-query';
-// import { useQuery } from "@tanstack/react-query";
+// import { useQuery } from 'react-query';
+import { useQuery } from "@tanstack/react-query";
 
 const fetchPosts = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
@@ -15,6 +15,8 @@ const PostsComponent = () => {
         queryFn: fetchPosts,
         staleTime: 5000,
         cacheTime: 60000,
+        refetchOnWindowFocus: false,
+        keepPreviousData: true,
     });
 
     if (isLoading) return <div>Loading posts...</div>;
@@ -25,12 +27,12 @@ const PostsComponent = () => {
             <button onClick={() => refetch()}>Refetch</button>
             <ul>
                 {data.slice(0, 10).map((post) => (
-                    <li key={post.id}>{post.title}</li>
+                    <li key={post.id}>
+                        <h3>{post.title}</h3>
+                        <p>{post.body}</p>
+                    </li>
                 ))}
             </ul>
-            {data.map(item => (
-                <div key={item.id}>{item.name}</div>
-            ))}
         </div>
     );
 };
