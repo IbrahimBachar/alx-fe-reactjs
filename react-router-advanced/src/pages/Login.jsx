@@ -6,6 +6,7 @@ const Login = () => {
   const handleLogin = () => {
     localStorage.setItem("auth", "true");
     navigate("/profile");
+    // window.location.href = "/profile";
   };
 
   return (
