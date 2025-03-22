@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Carbonara",
+      "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+      "image": "https://img.freepik.com/premium-photo/manchurian-hakka-schezwan-noodles-popular-indochinese-food-served-bowl-selective-focus_466689-34643.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Tikka Masala",
+      "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+      "image": "https://img.freepik.com/free-photo/side-view-baked-chicken-with-cucumber-lemon-seasoning-bread-table_141793-4757.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+    },
+    {
+      "id": 3,
+      "title": "Chicken Alfredo",
+      "summary": "A simple and ultra comforting homemade Chicken Alfredo recipe.",
+      "image": "https://img.freepik.com/premium-photo/chicken-picatta-dinner-delicious-creamy-chicken-picatta-served-with-pasta-plate_817921-74939.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+    },
+    {
+      "id": 4,
+      "title": "Chicken Parmesan",
+      "summary": "A classic Italian-American dish of crispy chicken cutlets topped with marinara sauce and melted mozzarella.",
+      "image": "https://media.istockphoto.com/id/95616814/photo/chicken-parmigiana.jpg?b=1&s=612x612&w=0&k=20&c=Ka1_pLszHk7fsfoSe1GQoMsrm4qH8JXwJyJsdJMnbg4="
+    },
+    {
+      "id": 5,
+      "title": "Chicken Fried Rice",
+      "summary": "A quick and easy weeknight meal made with leftover rice, chicken, and whatever veggies you have on hand!",
+      "image": "https://img.freepik.com/premium-photo/delicious-asian-meal-rice-with-chicken-broccoli_177613-3477.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+    },
+    {
+      "id": 6,
+      "title": "Chicken Noodle Soup",
+      "summary": "A classic comfort food made with chicken, vegetables, and egg noodles in a flavorful broth.",
+      "image": "https://img.freepik.com/premium-photo/chicken-soup-with-noodles-parsley-vegetables-white-plate_79830-2309.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+    },
+    {
+      "id": 7,
+      "title": "Chicken Enchiladas",
+      "summary": "A delicious and easy Mexican dish made with shredded chicken, cheese, and enchilada sauce.",
+      "image": "https://media.istockphoto.com/id/866265004/photo/baked-chicken-enchiladas.jpg?b=1&s=612x612&w=0&k=20&c=BhYocc0fTT_DAhGujQsd_iXAKQ6uDVxE1hucDWS1IoI="
+    }
+  ]
