@@ -1,6 +1,7 @@
 import {React, useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import JsonData from '../data.json'
+import AddRecipeForm from './AddRecipeForm';
 
 function HomePage() {
   
@@ -14,7 +15,13 @@ function HomePage() {
       }, []);
 
 
+      const addRecipe = (newRecipe) => {
+        setRecipes([...recipes, newRecipe]);
+      };
+
   return (
+    <>
+    <AddRecipeForm onAddRecipe={addRecipe} />
     <div className="container mx-auto p-5">
         <h1 className="text-3xl font-bold text-center mb-8 text-blue-600">Recipe Sharing Platform</h1>
        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -28,6 +35,7 @@ function HomePage() {
         ))}
        </div>
     </div>
+    </>
   )
 }
 
