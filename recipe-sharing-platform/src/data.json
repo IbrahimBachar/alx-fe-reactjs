@@ -3,42 +3,199 @@
       "id": 1,
       "title": "Spaghetti Carbonara",
       "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-      "image": "https://img.freepik.com/premium-photo/manchurian-hakka-schezwan-noodles-popular-indochinese-food-served-bowl-selective-focus_466689-34643.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+      "image": "https://img.freepik.com/premium-photo/manchurian-hakka-schezwan-noodles-popular-indochinese-food-served-bowl-selective-focus_466689-34643.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost",
+        "ingredients": [
+            "8 oz. spaghetti",
+            "2 large eggs",
+            "1/2 cup grated Pecorino Romano cheese",
+            "4 slices bacon",
+            "2 cloves garlic",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Bring a large pot of salted water to a boil.",
+            "Cook the spaghetti according to the package instructions until al dente.",
+            "While the spaghetti is cooking, whisk together the eggs, cheese, salt, and pepper in a bowl.",
+            "In a large skillet, cook the bacon over medium heat until crispy.",
+            "Add the garlic to the skillet and cook until fragrant.",
+            "Remove the skillet from the heat and add the cooked spaghetti, tossing to coat in the bacon fat.",
+            "Add the egg mixture to the skillet and toss to combine, allowing the residual heat to cook the eggs and create a creamy sauce.",
+            "Serve the spaghetti carbonara hot with additional cheese and black pepper."
+        ]
     },
     {
       "id": 2,
       "title": "Chicken Tikka Masala",
       "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-      "image": "https://img.freepik.com/free-photo/side-view-baked-chicken-with-cucumber-lemon-seasoning-bread-table_141793-4757.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+      "image": "https://img.freepik.com/free-photo/side-view-baked-chicken-with-cucumber-lemon-seasoning-bread-table_141793-4757.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost",
+      "ingredients": [
+          "1 lb. boneless, skinless chicken breasts",
+          "1 cup plain yogurt",
+          "2 tbsp lemon juice",
+          "2 tsp ground cumin",
+          "2 tsp ground paprika",
+          "2 tsp ground turmeric",
+          "2 tsp ground coriander",
+          "1 tsp ground cinnamon",
+          "1 tsp cayenne pepper",
+          "1 tbsp grated fresh ginger",
+          "4 cloves garlic, minced",
+          "1 can (14 oz.) crushed tomatoes",
+          "1 cup heavy cream",
+          "1/4 cup chopped fresh cilantro",
+          "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat the grill to medium-high heat.",
+        "In a large bowl, combine the yogurt, lemon juice, cumin, paprika, turmeric, coriander, cinnamon, cayenne pepper, ginger, and garlic.",
+        "Add the chicken to the bowl and toss to coat in the marinade.",
+        "Thread the chicken onto skewers and grill for 6-7 minutes per side, or until cooked through.",
+        "In a large skillet, combine the crushed tomatoes and heavy cream over medium heat.",
+        "Add the grilled chicken to the skillet and simmer for 10 minutes, stirring occasionally.",
+        "Season the chicken tikka masala with salt and pepper to taste.",
+        "Serve the chicken tikka masala hot over rice, garnished with fresh cilantro."
+      ]
     },
     {
       "id": 3,
       "title": "Chicken Alfredo",
       "summary": "A simple and ultra comforting homemade Chicken Alfredo recipe.",
-      "image": "https://img.freepik.com/premium-photo/chicken-picatta-dinner-delicious-creamy-chicken-picatta-served-with-pasta-plate_817921-74939.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+      "image": "https://img.freepik.com/premium-photo/chicken-picatta-dinner-delicious-creamy-chicken-picatta-served-with-pasta-plate_817921-74939.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost",
+      "ingredients": [
+            "8 oz. fettuccine pasta",
+            "2 boneless, skinless chicken breasts",
+            "2 tbsp olive oil",
+            "2 cloves garlic, minced",
+            "1 cup heavy cream",
+            "1/2 cup grated Parmesan cheese",
+            "1/4 cup chopped fresh parsley",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Bring a large pot of salted water to a boil.",
+            "Cook the fettuccine according to the package instructions until al dente.",
+            "While the fettuccine is cooking, season the chicken breasts with salt and pepper.",
+            "In a large skillet, heat the olive oil over medium-high heat.",
+            "Add the chicken breasts to the skillet and cook for 6-7 minutes per side, or until cooked through.",
+            "Remove the chicken from the skillet and set aside.",
+            "Add the garlic to the skillet and cook until fragrant.",
+            "Add the heavy cream to the skillet and bring to a simmer.",
+            "Stir in the Parmesan cheese until melted and the sauce has thickened.",
+            "Slice the chicken breasts and add them back to the skillet, tossing to coat in the sauce.",
+            "Serve the chicken Alfredo hot over the cooked fettuccine, garnished with fresh parsley."
+        ]
     },
     {
       "id": 4,
       "title": "Chicken Parmesan",
       "summary": "A classic Italian-American dish of crispy chicken cutlets topped with marinara sauce and melted mozzarella.",
-      "image": "https://media.istockphoto.com/id/95616814/photo/chicken-parmigiana.jpg?b=1&s=612x612&w=0&k=20&c=Ka1_pLszHk7fsfoSe1GQoMsrm4qH8JXwJyJsdJMnbg4="
+      "image": "https://media.istockphoto.com/id/95616814/photo/chicken-parmigiana.jpg?b=1&s=612x612&w=0&k=20&c=Ka1_pLszHk7fsfoSe1GQoMsrm4qH8JXwJyJsdJMnbg4=",
+      "ingredients": [
+            "2 boneless, skinless chicken breasts",
+            "1 cup all-purpose flour",
+            "2 large eggs",
+            "1 cup breadcrumbs",
+            "1/2 cup grated Parmesan cheese",
+            "1 cup marinara sauce",
+            "1 cup shredded mozzarella cheese",
+            "1/4 cup chopped fresh basil",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Preheat the oven to 400°F (200°C).",
+            "Season the chicken breasts with salt and pepper.",
+            "Dredge the chicken breasts in the flour, shaking off any excess.",
+            "In a shallow bowl, beat the eggs.",
+            "In another shallow bowl, combine the breadcrumbs and Parmesan cheese.",
+            "Dip the floured chicken breasts in the beaten eggs, then coat in the breadcrumb mixture.",
+            "Place the breaded chicken breasts on a baking sheet and bake for 20 minutes, or until cooked through.",
+            "Remove the chicken from the oven and top each breast with marinara sauce and mozzarella cheese.",
+            "Return the chicken to the oven and bake for an additional 5-10 minutes, or until the cheese is melted and bubbly.",
+            "Serve the chicken Parmesan hot, garnished with fresh basil."
+        ]
     },
     {
       "id": 5,
       "title": "Chicken Fried Rice",
       "summary": "A quick and easy weeknight meal made with leftover rice, chicken, and whatever veggies you have on hand!",
-      "image": "https://img.freepik.com/premium-photo/delicious-asian-meal-rice-with-chicken-broccoli_177613-3477.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+      "image": "https://img.freepik.com/premium-photo/delicious-asian-meal-rice-with-chicken-broccoli_177613-3477.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost",
+      "ingredients": [
+        "2 cups cooked rice",
+        "2 boneless, skinless chicken breasts",
+        "2 eggs",
+        "1 cup mixed vegetables (peas, carrots, corn)",
+        "2 cloves garlic, minced",
+        "2 tbsp soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tbsp sesame oil",
+        "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Heat the sesame oil in a large skillet or wok over medium-high heat.",
+            "Add the chicken breasts to the skillet and cook for 6-7 minutes per side, or until cooked through.",
+            "Remove the chicken from the skillet and set aside.",
+            "In the same skillet, add the mixed vegetables and garlic, and cook until the vegetables are tender.",
+            "Push the vegetables to one side of the skillet and scramble the eggs on the other side.",
+            "Add the cooked rice to the skillet and toss to combine with the vegetables and eggs.",
+            "Slice the cooked chicken breasts and add them back to the skillet.",
+            "Stir in the soy sauce and oyster sauce, and season with salt and pepper to taste.",
+            "Serve the chicken fried rice hot, garnished with green onions."
+        ]
     },
     {
       "id": 6,
       "title": "Chicken Noodle Soup",
       "summary": "A classic comfort food made with chicken, vegetables, and egg noodles in a flavorful broth.",
-      "image": "https://img.freepik.com/premium-photo/chicken-soup-with-noodles-parsley-vegetables-white-plate_79830-2309.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost"
+      "image": "https://img.freepik.com/premium-photo/chicken-soup-with-noodles-parsley-vegetables-white-plate_79830-2309.jpg?ga=GA1.1.69312387.1742631691&semt=ais_keywords_boost",
+      "ingredients": [
+        "1 pound boneless, skinless chicken breast or thighs",
+        "8 cups chicken broth",
+        "2 cups egg noodles",
+        "1 cup chopped carrots",
+        "1 cup chopped celery",
+        "1 cup chopped onion",
+        "2 cloves garlic, minced",
+        "1 bay leaf",
+        "1/4 cup chopped fresh parsley",
+        "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "In a large pot or Dutch oven, sauté the chopped onion, carrots, and celery in olive oil until softened.",
+            "Add the minced garlic and cook until fragrant.",
+            "Add the chicken broth, bay leaf, and chicken breasts to the pot.",
+            "Bring the broth to a boil, then reduce the heat and simmer for 20 minutes, or until the chicken is cooked through.",
+            "Remove the chicken from the pot and shred it with two forks.",
+            "Return the shredded chicken to the pot and add the egg noodles.",
+            "Simmer the soup for an additional 10 minutes, or until the noodles are cooked.",
+            "Season the chicken noodle soup with salt and pepper to taste.",
+            "Serve the chicken noodle soup hot, garnished with fresh parsley."
+        ]
     },
     {
       "id": 7,
       "title": "Chicken Enchiladas",
       "summary": "A delicious and easy Mexican dish made with shredded chicken, cheese, and enchilada sauce.",
-      "image": "https://media.istockphoto.com/id/866265004/photo/baked-chicken-enchiladas.jpg?b=1&s=612x612&w=0&k=20&c=BhYocc0fTT_DAhGujQsd_iXAKQ6uDVxE1hucDWS1IoI="
+      "image": "https://media.istockphoto.com/id/866265004/photo/baked-chicken-enchiladas.jpg?b=1&s=612x612&w=0&k=20&c=BhYocc0fTT_DAhGujQsd_iXAKQ6uDVxE1hucDWS1IoI=",
+      "ingredients": [
+        "1 pound shredded cooked chicken",
+        "1 cup shredded cheese",
+        "1 can (10 oz.) red enchilada sauce",
+        "1 can (4 oz.) diced green chilies",
+        "1/4 cup chopped fresh cilantro",
+        "8 corn tortillas",
+        "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Preheat the oven to 375°F (190°C).",
+            "In a large bowl, combine the shredded chicken, 1/2 cup of the cheese, diced green chilies, and chopped cilantro.",
+            "Season the chicken mixture with salt and pepper to taste.",
+            "Pour 1/4 cup of the enchilada sauce into the bottom of a baking dish.",
+            "Warm the corn tortillas in the microwave for 30 seconds to make them pliable.",
+            "Divide the chicken mixture evenly among the tortillas and roll them up.",
+            "Place the rolled enchiladas seam-side down in the baking dish.",
+            "Pour the remaining enchilada sauce over the top of the enchiladas and sprinkle with the remaining cheese.",
+            "Bake the enchiladas for 20-25 minutes, or until the cheese is melted and bubbly.",
+            "Serve the chicken enchiladas hot, garnished with fresh cilantro."
+        ]
     }
   ]

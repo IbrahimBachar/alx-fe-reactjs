@@ -1,4 +1,5 @@
 import {React, useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
 import JsonData from '../data.json'
 
 function HomePage() {
@@ -22,6 +23,7 @@ function HomePage() {
                 <img src={recipe.image} alt={recipe.name} className="w-full h-48 object-cover rounded-md" />
                 <h2 className="text-xl font-semibold mt-4">{recipe.title}</h2>
                 <p className="text-gray-600 mt-2">{recipe.summary}</p>
+                <Link to={`/recipe/${recipe.id}`} className="block mt-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold text-center py-2 rounded-md">View Recipe</Link>
             </div>
         ))}
        </div>
